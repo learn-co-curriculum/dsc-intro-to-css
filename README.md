@@ -15,15 +15,12 @@ One of the most amazing displays of the power of CSS is the
 [CSS Zen Garden](http://www.csszengarden.com/) where people take the _exact
 same_ HTML page and use CSS to create _wildly_ different pages. Take a look!
 
-![CSS Zen Garden 1](https://curriculum-content.s3.amazonaws.com/fewds-css/introduction-to-css/zengarden1.png "A long-scrolling single-page CSS Zen Garden design")
-![CSS Zen Garden 2](https://curriculum-content.s3.amazonaws.com/fewds-css/introduction-to-css/zengarden2.png "An animated CSS, full-screen browser single-page style Zen Garden design")
-![CSS Zen Garden 3](https://curriculum-content.s3.amazonaws.com/fewds-css/introduction-to-css/zengarden3.png "Blog-like CSS Zen Garden designs")
+![CSS Zen Garden 1](images/zengarden1.png "A long-scrolling single-page CSS Zen Garden design")
+![CSS Zen Garden 2](images/zengarden2.png "An animated CSS, full-screen browser single-page style Zen Garden design")
+![CSS Zen Garden 3](images/zengarden3.png "Blog-like CSS Zen Garden designs")
 
-Like we said: all the difference between these images is created by CSS!
+All the difference between these images is created by CSS!
 Astounding, right!?
-
-We know now what CSS is and its purpose, so how does it differ from HTML and
-how can we use it?
 
 ## Objectives
 You will be able to:
@@ -33,9 +30,7 @@ You will be able to:
 
 ## Recognize The Differences Between HTML And CSS
 
-HTML and CSS play two different roles. When we write HTML, we focus on
-structure, hierarchy, and meaning &mdash; the "marking-up" of content.
-Questions in the mind of an HTML author are:
+HTML and CSS play two different roles. When you write HTML, it's important to focus on structure, hierarchy, and meaning &mdash; the "marking-up" of content. Questions in the mind of an HTML author are:
 
 * Is it best to list these members' names with numbers, or bullets?
 * Does this menu belong in in the navigation in the header?
@@ -44,12 +39,12 @@ Questions in the mind of an HTML author are:
 These questions deal with structure, hierarchy, and meaning, which are
 are concerns of the content layer (HTML).
 
-When defining the presentation layer (CSS), here are the questions we ask
-ourselves:
+When defining the presentation layer (CSS), here are the questions to ask
+yourself:
 
-* Do we want the header menu to be stationary, or does it scroll with the
+* Do I want the header menu to be stationary, or does it scroll with the
   browser window?
-* How do we want the content to display inside of a container? For example,
+* How do I want the content to display inside of a container? For example,
   does it fill the whole area, edge-to-edge? Is there white space around
   the content and/or the container?
 * How large should an `H1` be relative to an `H2`? What about an `H3`?
@@ -157,7 +152,7 @@ Each element has a list of qualities that can be styled.  CSS "property" names
 identify those qualities. For text styling, examples of property names include
 text `color`, `text-align` and `line-height`.
 
-CSS Property Values are directly related to property names. If we are working
+CSS Property Values are directly related to property names. If you are working
 with the `color` property, the value could be a named color such as `red`, or
 `#660000`. Some properties have their values set with words, others with
 numbers, and some can take both.
@@ -183,7 +178,7 @@ This is a css declaration for a selector
 */
 ```
 
-Let's write a more complete example declaration block.
+Here's a more complete example declaration block.
 
 ```css
 /*
