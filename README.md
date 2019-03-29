@@ -33,8 +33,8 @@ You will be able to:
 HTML and CSS play two different roles. When you write HTML, it's important to focus on structure, hierarchy, and meaning &mdash; the "marking-up" of content. Questions in the mind of an HTML author are:
 
 * Is it best to list these members' names with numbers, or bullets?
-* Does this menu belong in in the navigation in the header?
-* Should this additional reference be an aside, or a separate section?
+* Does this menu belong in the navigation in the header?
+* Should this additional reference be an aside or a separate section?
 
 These questions deal with structure, hierarchy, and meaning, which are
 are concerns of the content layer (HTML).
@@ -45,12 +45,10 @@ yourself:
 * Do I want the header menu to be stationary, or does it scroll with the
   browser window?
 * How do I want the content to display inside of a container? For example,
-  does it fill the whole area, edge-to-edge? Is there white space around
-  the content and/or the container?
+  does it fill the whole area, edge-to-edge? Is there white space around the content and/or the container?
 * How large should an `H1` be relative to an `H2`? What about an `H3`?
 * What properties should links have? Underline or no underline?
-  Which color for the normal state versus the hover state? Should the
-  visited link state be different?
+  Which color for the normal state versus the hover state? Should the visited link state be different?
 * How should the content appear when on a desktop machine versus a
   mobile device?
 
@@ -66,9 +64,9 @@ For each _presentation rule_, there are 3 things to keep in mind:
 2. What are the qualities we want to modify (e.g. the properties of text
    in a paragraph)?
 3. _How_ do we want to modify the qualities of the element (e.g. font
-   family, font color, font size, line height, letter spacing etc.)?
+   family, font color, font size, line height, letter spacing, etc.)?
 
-Once you've decided what to modify and how, we can start writing CSS rules.
+Once you've decided what to modify and how we can start writing CSS rules.
 
 CSS selectors are a way of declaring which HTML elements you wish to style.
 Selectors can appear a few different ways:
@@ -80,8 +78,8 @@ Selectors can appear a few different ways:
 - The element's relationship with surrounding elements (a `p` within an element
   with class of `.infobox`)
 
-For example if you want the body of the page to have a black background, your
-selector syntax may be `html` or `body`. For anchors, you selector would be
+For example, if you want the body of the page to have a black background, your
+selector syntax may be `html` or `body`. For anchors, your selector would be
 `a`. A few more examples are listed below:
 
 ```css
