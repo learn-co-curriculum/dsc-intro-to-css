@@ -36,8 +36,7 @@ HTML and CSS play two different roles. When you write HTML, it's important to fo
 * Does this menu belong in the navigation in the header?
 * Should this additional reference be an aside or a separate section?
 
-These questions deal with structure, hierarchy, and meaning, which are
-are concerns of the content layer (HTML).
+These questions deal with structure, hierarchy, and meaning, which are concerns of the content layer (HTML).
 
 When defining the presentation layer (CSS), here are the questions to ask
 yourself:
@@ -53,7 +52,7 @@ yourself:
   mobile device?
 
 As you ask yourself these questions, your focus is on the *aesthetic* quality
-of the page. For each bit of _content_ we can define a _presentation rule_
+of the page. For each bit of _content_, we can define a _presentation rule_
 that will change the way the HTML is displayed.
 
 ## List the Basics of CSS
