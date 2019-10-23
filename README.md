@@ -3,7 +3,7 @@
 
 ## Introduction
 Browsers combine the content (HTML) and presentation (CSS) layers to
-display web pages.  CSS is the language for styling web pages.
+display web pages.  CSS is the language for *styling* web pages.
 
 CSS instructions live apart from the HTML elements and have a different
 look and feel ("syntax"). CSS directives give web pages their specific look and
@@ -19,20 +19,19 @@ same_ HTML page and use CSS to create _wildly_ different pages. Take a look!
 ![CSS Zen Garden 2](images/zengarden2.png "An animated CSS, full-screen browser single-page style Zen Garden design")
 ![CSS Zen Garden 3](images/zengarden3.png "Blog-like CSS Zen Garden designs")
 
-All the difference between these images is created by CSS!
+All of the differences you see are due to CSS!
 Astounding, right!?
 
 ## Objectives
 You will be able to:
-* Recognize the differences between HTML and CSS
-* List the basics of CSS
+* List the components of CSS
 * Declare CSS properties and values
 
 ## Recognize The Differences Between HTML And CSS
 
 HTML and CSS play two different roles. When you write HTML, it's important to focus on structure, hierarchy, and meaning &mdash; the "marking-up" of content. Questions in the mind of an HTML author are:
 
-* Is it best to list these members' names with numbers, or bullets?
+* Is it best to list these members' names with numbers or bullets?
 * Does this menu belong in the navigation in the header?
 * Should this additional reference be an aside or a separate section?
 
@@ -41,7 +40,7 @@ These questions deal with structure, hierarchy, and meaning, which are concerns 
 When defining the presentation layer (CSS), here are the questions to ask
 yourself:
 
-* Do I want the header menu to be stationary, or does it scroll with the
+* Do I want the header menu to be stationary or do I want it to scroll with the
   browser window?
 * How do I want the content to display inside of a container? For example,
   does it fill the whole area, edge-to-edge? Is there white space around the content and/or the container?
@@ -52,12 +51,12 @@ yourself:
   mobile device?
 
 As you ask yourself these questions, your focus is on the *aesthetic* quality
-of the page. For each bit of _content_, we can define a _presentation rule_
+of the page. For each bit of _content_, we can define a **presentation rule**
 that will change the way the HTML is displayed.
 
-## List the Basics of CSS
+## List the Components of CSS
 
-For each _presentation rule_, there are 3 things to keep in mind:
+For each **presentation rule**, there are 3 things to keep in mind:
 
 1. What is the specific HTML we want to style?
 2. What are the qualities we want to modify (e.g. the properties of text
@@ -67,7 +66,7 @@ For each _presentation rule_, there are 3 things to keep in mind:
 
 Once you've decided what to modify and how we can start writing CSS rules.
 
-CSS selectors are a way of declaring which HTML elements you wish to style.
+CSS **selectors** are a way of declaring which HTML elements you wish to style.
 Selectors can appear a few different ways:
 
 - The type of HTML element(`h1`, `p`, `div`, etc.)
@@ -192,7 +191,4 @@ h1 {
 
 ## Summary
 
-With the combination of HTML and CSS, you are able to define content,
-structure, and style to websites. Using a CSS selector like `h1` or `p` paired
-with a declaration block, you will change the display of that element.
-Declaration blocks are collections of CSS properties and values.
+With the combination of HTML and CSS, you are able to define content, structure, and style for websites. In this lesson, you learned about the components of CSS and how to declare CSS properties and values in declaration blocks. For example, you can use a CSS selector like `h1` or `p` paired with a declaration block to change the display of that element.
