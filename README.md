@@ -70,8 +70,8 @@ CSS **selectors** are a way of declaring which HTML elements you wish to style.
 Selectors can appear a few different ways:
 
 - The type of HTML element(`h1`, `p`, `div`, etc.)
-- The value of an element's `id` or `class` (`<p id='idvalue'></p>`, `<p
-  class='classname'></p>`)
+- The value of an element's `id` or `class` (```<p id='idvalue'></p>```, ```<p
+  class='classname'></p>```)
 - The value of an element's attributes (`value="hello"`)
 - The element's relationship with surrounding elements (a `p` within an element
   with class of `.infobox`)
@@ -192,3 +192,8 @@ h1 {
 ## Summary
 
 With the combination of HTML and CSS, you are able to define content, structure, and style for websites. In this lesson, you learned about the components of CSS and how to declare CSS properties and values in declaration blocks. For example, you can use a CSS selector like `h1` or `p` paired with a declaration block to change the display of that element.
+
+
+```
+
+```
