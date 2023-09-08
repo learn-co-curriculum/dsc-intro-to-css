@@ -1,4 +1,3 @@
-
 # Intro to CSS
 
 ## Introduction
@@ -116,10 +115,10 @@ and <h1 class='important-topic'>)
 .important-topic
 
 /*
-select all elements that have the 'welcome-message' classname (e.g. <p class='helpful-hint'>
-and <p class='helpful-hint'>)
+select all elements that have the 'welcome-message' classname (e.g. <p class='welcome-message'>
+and <p class='welcome-message'>)
 */
-.helpful-hint
+.welcome-message
 ```
 
 You can also use the `id` selector to style elements. However, **there should
@@ -192,8 +191,3 @@ h1 {
 ## Summary
 
 With the combination of HTML and CSS, you are able to define content, structure, and style for websites. In this lesson, you learned about the components of CSS and how to declare CSS properties and values in declaration blocks. For example, you can use a CSS selector like `h1` or `p` paired with a declaration block to change the display of that element.
-
-
-```
-
-```
