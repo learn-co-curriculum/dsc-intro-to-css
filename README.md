@@ -14,9 +14,9 @@ One of the most amazing displays of the power of CSS is the
 [CSS Zen Garden](http://www.csszengarden.com/) where people take the _exact
 same_ HTML page and use CSS to create _wildly_ different pages. Take a look!
 
-![CSS Zen Garden 1](images/zengarden1.png "A long-scrolling single-page CSS Zen Garden design")
-![CSS Zen Garden 2](images/zengarden2.png "An animated CSS, full-screen browser single-page style Zen Garden design")
-![CSS Zen Garden 3](images/zengarden3.png "Blog-like CSS Zen Garden designs")
+![CSS Zen Garden 1]()
+![CSS Zen Garden 2]()
+![CSS Zen Garden 3]()
 
 All of the differences you see are due to CSS!
 Astounding, right!?
